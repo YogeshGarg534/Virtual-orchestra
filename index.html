@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+<title>Javascipt 1</title>
+<style type="text/css">
+button { width:50px;
+         height:50px;
+		 background-color:black;
+		 color:blue;
+		 font-size:25px;
+		 Position:center;
+		 margin:5px;
+		 border-radius:10px;
+		 
+		 }
+#notes1 {position:absolute;
+       top:200px;
+       left:350px;	   
+}
+#notes2 { position:absolute;
+          top:275px;
+		  left:375px;
+		  }
+#notes3 { position:absolute;
+         top:350px;
+         left:435px;
+}		 
+
+
+button:playing { transform-scale:1.1;
+                 border:yellow;
+				 }
+
+
+
+
+
+</style>
+</head>
+<body>
+<script type="text/javascript">
+
+
+
+window.addEventListener("keydown", checkkeypress, false);
+
+function checkkeypress(key){
+if (key.keyCode == "81"){
+ document.getElementById("first").click(); 
+ }
+if (key.keyCode == "87"){
+ document.getElementById("second").click(); 
+ }
+if (key.keyCode == "69"){
+ document.getElementById("third").click(); 
+ }
+if (key.keyCode == "82"){
+ document.getElementById("fourth").click(); 
+ }
+if (key.keyCode == "84"){
+ document.getElementById("fifth").click(); 
+ }
+if (key.keyCode == "89"){
+ document.getElementById("sixth").click(); 
+ }
+if (key.keyCode == "85"){
+ document.getElementById("seventh").click(); 
+ }
+if (key.keyCode == "73"){
+ document.getElementById("eighth").click(); 
+ }
+if (key.keyCode == "79"){
+ document.getElementById("nine").click(); 
+ }
+if (key.keyCode == "80"){
+ document.getElementById("ten").click(); 
+ }
+if (key.keyCode == "65"){
+ document.getElementById("eleven").click(); 
+ }
+if (key.keyCode == "83"){
+ document.getElementById("twelve").click(); 
+ }
+if (key.keyCode == "68"){
+ document.getElementById("thirteen").click(); 
+ }
+if (key.keyCode == "70"){
+ document.getElementById("fourteen").click(); 
+ }
+if (key.keyCode == "71"){
+ document.getElementById("fifteen").click(); 
+ }
+if (key.keyCode == "72"){
+ document.getElementById("sixteen").click(); 
+ }
+if (key.keyCode == "74"){
+ document.getElementById("seventeen").click(); 
+ }
+if (key.keyCode == "75"){
+ document.getElementById("eighteen").click(); 
+ }
+if (key.keyCode == "76"){
+ document.getElementById("ninteen").click(); 
+ }
+if (key.keyCode == "90"){
+ document.getElementById("twenty").click(); 
+ }
+if (key.keyCode == "88"){
+ document.getElementById("twentyone").click(); 
+ }
+if (key.keyCode == "67"){
+ document.getElementById("twentytwo").click(); 
+ }
+if (key.keyCode == "86"){
+ document.getElementById("twentythreee").click(); 
+ }
+if (key.keyCode == "66"){
+ document.getElementById("twentyfour").click(); 
+ }
+if (key.keyCode == "78"){
+ document.getElementById("twentyfive").click(); 
+ }
+if (key.keyCode == "77"){
+ document.getElementById("twentysix").click(); 
+ 
+ }}
+
+
+
+var soundQ = new Audio();
+soundQ.src = "Assests/Q.mp3";
+var soundW = new Audio();
+soundW.src = "Assests/W.mp3";
+var soundE = new Audio();
+soundE.src = "Assests/E.mp3";
+var soundR = new Audio();
+soundR.src = "Assests/R.mp3";
+var soundT = new Audio();
+soundT.src = "Assests/T.mp3";
+var soundY = new Audio();
+soundY.src = "Assests/Y.mp3";
+var soundU = new Audio();
+soundU.src = "Assests/U.mp3";
+var soundI = new Audio();
+soundI.src = "Assests/I.mp3";
+var soundO = new Audio();
+soundO.src = "Assests/O.mp3";
+var soundP = new Audio();
+soundP.src = "Assests/P.mp3";
+
+
+var soundA = new Audio();
+soundA.src = "Assests/A.mp3";
+var soundS = new Audio();
+soundS.src = "Assests/S.mp3";
+var soundD = new Audio();
+soundD.src = "Assests/D.mp3";
+var soundF = new Audio();
+soundF.src = "Assests/F.mp3";
+var soundG = new Audio();
+soundG.src = "Assests/G.mp3";
+var soundH = new Audio();
+soundH.src = "Assests/H.mp3";
+var soundJ = new Audio();
+soundJ.src = "Assests/J.mp3";
+var soundK = new Audio();
+soundK.src = "Assests/K.mp3";
+var soundL = new Audio();
+soundL.src = "Assests/L.mp3";
+
+var soundZ = new Audio();
+soundZ.src = "Assests/Z.mp3";
+var soundX = new Audio();
+soundX.src = "Assests/X.mp3";
+var soundC = new Audio();
+soundC.src = "Assests/C.mp3";
+var soundV = new Audio();
+soundV.src = "Assests/V.mp3";
+var soundB = new Audio();
+soundB.src = "Assests/B.mp3";
+var soundN = new Audio();
+soundN.src = "Assests/N.mp3";
+var soundM = new Audio();
+soundM.src = "Assests/M.mp3";
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</script>
+<div id="notes1">
+
+
+<button id="first" onclick="soundQ.play()">Q</button>
+<button id="second" onclick="soundW.play()">W</button>
+<button id="third" onclick="soundE.play()">E</button>
+<button id="fourth" onclick="soundR.play()">R</button>
+<button id="fifth" onclick="soundT.play()">T</button>
+<button id="sixth" onclick="soundY.play()">Y</button>
+<button id="seventh" onclick="soundU.play()">U</button>
+<button id="eighth" onclick="soundI.play()">I</button>
+<button id="nine" onclick="soundO.play()">O</button>
+<button id="ten" onclick="soundP.play()">P</button>
+
+
+</div>
+<div id="notes2">
+<button id="eleven" onclick="soundA.play()">A</button>
+<button id="twelve" onclick="soundS.play()">S</button>
+<button id="thirteen" onclick="soundD.play()">D</button>
+<button id="fourteen" onclick="soundF.play()">F</button>
+<button id="fifteen" onclick="soundG.play()">G</button>
+<button id="sixteen" onclick="soundH.play()">H</button>
+<button id="seventeen" onclick="soundJ.play()">J</button>
+<button id="eighteen" onclick="soundK.play()">K</button>
+<button id="ninteen" onclick="soundL.play()">L</button>
+</div>
+<div id="notes3">
+
+
+<button id="twenty" onclick="soundZ.play()">Z</button>
+<button id="twentyone" onclick="soundX.play()">X</button>
+<button id="twentytwo" onclick="soundC.play()">C</button>
+<button id="twentythreee" onclick="soundV.play()">V</button>
+<button id="twentyfour" onclick="soundB.play()">B</button>
+<button id="twentyfive" onclick="soundN.play()">N</button>
+<button id="twentysix" onclick="soundM.play()">M</button>
+
+
+
+
+</div>
+</body>
+</html>
